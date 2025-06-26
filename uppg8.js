@@ -11,7 +11,24 @@ function uppg8(){
 
 // anropa funktionen och skicka med arrayen som argument
 
+const personer = [
+  { name: "Leon", age: 25 },
+  { name: "Leo", age: 31 },
+  { name: "Leona", age: 34 },
+  { name: "Leonardo", age: 21 },
+  { name: "Leonora", age: 36 },
+];
 
+function printnamesover30 (array) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].age > 30) {
+      console.log(array[i].name);
+    }
+  }
+}
+
+printnamesover30 (personer);
+  
 }
 
 module.exports = { uppg8 };
