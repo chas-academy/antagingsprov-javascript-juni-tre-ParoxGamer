@@ -8,7 +8,7 @@ function uppg4() {
 
   const person = {
     name: "Leon",
-    age: 19
+    age: 25
   };
 
   console.log(person.age);
